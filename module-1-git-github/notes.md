@@ -1,6 +1,6 @@
 # Module 1 — Git & GitHub
 
-**Student:** [your name]
+**Student:** Dizon, Adrian Kier T.
 **Date:** [date]
 
 ---
