@@ -1,6 +1,7 @@
 # Module 1 — Git & GitHub
 
-**Student:** Dizon, Adrian Kier T.
+**Student:** Dizon, Adrian Kier T. 
+
 **Date:** 9/25/2026
 
 ---
