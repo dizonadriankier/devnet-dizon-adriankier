@@ -7,27 +7,26 @@ movies = []
 
 
 def display_menu():
-    print("===Movie Collection Manager")
-    print("1. Add a movie" \
-    "2. View all movies" \
-    "3. Count watched vs unwatched" \
-    "4. Find a movie" \
-    "5. Exit")
+    print("\n===Movie Collection Manager===")
+    print("1. Add a movie")
+    print("2. View all movies")
+    print("3. Count watched vs unwatched")
+    print("4. Find a movie")
+    print("5. Exit")
 
     choice = input("Choose an option: ")
-
-    if choice == 1:
-
-
-    # return the user's choice
-    pass
-
+    return choice
 
 def add_movie(movie_list):
+    
 
     title = input("Enter movie title: ")
     director = input("Enter director: ")
     status = input("Enter status: ")
+
+    movietitle = title.split()
+    moviedirector = director.split()
+    moviestatus = status.split()
 
     print("Movie added succesfully.")
     # ask for title, director, and status
@@ -37,7 +36,7 @@ def add_movie(movie_list):
 
 
 def view_movies(movie_list):
-    
+
     # loop through and print every movie
     # handle empty list
     pass
@@ -51,6 +50,11 @@ def count_watched_unwatched(movie_list):
 
 
 def find_movie(movie_list):
+
+    input = ("Movie title: ")
+
+    print("No movies in the collection.")
+
     # ask for a movie title
     # search the list
     # search should be case-insensitive
@@ -59,6 +63,9 @@ def find_movie(movie_list):
 
 
 def main():
+
+    
+
     # create the main menu loop
     # call the appropriate function based on the user's choice
     pass
