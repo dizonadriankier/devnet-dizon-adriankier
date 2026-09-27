@@ -1,0 +1,36 @@
+Module 2 — Lesson 4: Functions
+
+Student: Dizon, Adrian Kier T.
+Date: 9/27/2026
+
+WHAT IS THIS TOPIC?
+
+I learned that functions are like small blocks of code that I can reuse whenever I need them. Instead of writing the same code again and again, I can put it inside a function and call it whenever I need it.
+
+KEY VOCABULARY
+
+function: A block of code that does a specific task.
+parameter: A variable that a function can receive.
+argument: The actual value I give to a function.
+return: Used when I want a function to give a value back.
+call: Running a function by using its name.
+
+MY OWN EXAMPLE
+
+I made a simple function that adds two numbers together.
+
+def add_numbers(a, b):
+return a + b
+
+result = add_numbers(5, 3)
+print("The answer is:", result)
+
+The answer is: 8
+
+A MISTAKE I MADE
+
+At first, I was a little confused about the difference between a parameter and an argument. I learned that the parameter is written inside the function, while the argument is the actual value I give when I call the function.
+
+HOW THIS CONNECTS
+
+I can use functions when making bigger programs because they can help me organize my code. Instead of writing the same code again, I can make a function and use it whenever I need it.
