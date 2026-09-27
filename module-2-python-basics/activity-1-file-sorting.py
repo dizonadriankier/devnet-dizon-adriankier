@@ -20,10 +20,12 @@ sort the files? e.g. by extension, by name, by date, etc.]
 ============================================
 KEY VOCABULARY
 ============================================
-- os module:
-- shutil module:
-- file path:
-- directory:
+- os module: This lets us work with files, folders, and other things on the computer using Python. 
+We can use it to check if a file exists, create folders, or get the current folder.
+
+- shutil module: This is used for managing files and folders. We can use it to copy, move, rename, or delete them.
+- file path: It's the location of a file on the computer. It tells Python where the file is.
+- directory: It's another word for a folder where files and other folders are stored. For example, the Documents folder is a directory.
 (add more as needed)
 
 ============================================
